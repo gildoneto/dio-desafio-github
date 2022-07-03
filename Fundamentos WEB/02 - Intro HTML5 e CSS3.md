@@ -166,5 +166,5 @@ Crie um elemento ul e dentro dele adicione um `<li>` com um elemento a, no atrib
 
 # CSS3
 
-<img src="" alt="Elemento HTML" width="400" />
+<img src="https://github.com/gildoneto/dio-desafio-github/blob/main/img/02-seletor-HTML.png?raw=true" alt="Elemento HTML" width="400" />
 
