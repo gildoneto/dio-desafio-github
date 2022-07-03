@@ -31,11 +31,19 @@ Torna a tag um elemento do tipo flex container, e assim automaticamente todos os
 
 É a propriedade que estabelece o eixo principal do container, definindo assim a direção que os flex items são colocados no flex container.
 
-- `row` (padrão) -> dereção do tesxto, esquerda para direita.
+- `row` (padrão) -> direção do texto, esquerda para direita.
 - `row-reverse` -> sentido oposto à direção do texto
 - `column`-> ordenação de cima para baixo, em coluna única
 - `column-reverse`-> ordenação inversa, de baixo para cima
 
+### Flex-wrap
+
+É a propriedade que define se os itens devem ou não quebrar a linha.
+Por padrão eles não quebram linhas, isso faz com que os flex items sejam compactados além do limite do conteúdo.
+
+- `nowrap`(padrão) -> não permite a quebra de linha
+- `wrap`-> permite a quebra linha assim que um dos flex items não puderem mais serem compactados
+- `wrap-reverse`-> permite a quebra de linha na direção contrária
 ## Flex Item
 
 São elementos filhos diretos do *Flex Container*, e também podem se tornar um outro Flex Container.
