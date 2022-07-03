@@ -44,6 +44,12 @@ Por padrão eles não quebram linhas, isso faz com que os flex items sejam compa
 - `nowrap`(padrão) -> não permite a quebra de linha
 - `wrap`-> permite a quebra linha assim que um dos flex items não puderem mais serem compactados
 - `wrap-reverse`-> permite a quebra de linha na direção contrária
+
+### Flex-flow
+
+É um atalho para as propriedades `flex-direction` e `flex-wrap`.
+Porém seu uso não é tão comum, visto que, quando mudamos o `flex-direction` para `column`, mantemos o padrão do `flex-wrap` que é `nowrap`.
+
 ## Flex Item
 
 São elementos filhos diretos do *Flex Container*, e também podem se tornar um outro Flex Container.
