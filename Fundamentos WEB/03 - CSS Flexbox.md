@@ -63,6 +63,21 @@ As variações:
 - `center`-> centro do container
 - `space-between`-> cria um espaçamento igual entre os elementos
 - `space-around`-> os espaçamentos do meio são duas vezes maiores que o inicial e final
+
+### align-items
+
+Trata do alinhamento dos flex items de acordo com o eixo do container.
+O alinhamento é diferente para quando os items estão em colunas ou linhas.
+Permite o alinhamento central no eixo vertical.
+
+Tipos de alinhamento: 
+
+- `center`-> alinhamento dos itens ao centro
+- `stretch` (padrão)-> flex items crescem igualmente
+- `flex-start` -> alinhamento dos itens no início
+- `flex-end` -> alinhamento dos itens no final
+- `baseline` -> alinhamento de acordo com a linha base da tipografia dos itens
+
 ## Flex Item
 
 São elementos filhos diretos do *Flex Container*, e também podem se tornar um outro Flex Container.
