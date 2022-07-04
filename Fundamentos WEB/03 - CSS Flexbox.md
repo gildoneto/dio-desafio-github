@@ -117,3 +117,16 @@ Define a proporcionalidade de crescimento dos itens, respeitando o tamanho de se
 
 Obs.: não irá funcionar caso tenhamos adicionado justify-content ao nosso flex container.
 
+### flex-basis
+
+É a propriedade que estabelece o tamanho inicial do item antes das distribuições de espaço restante dentro dele, usando como base o conteúdo interno disposto.
+
+valores possíveis:
+
+- `auto` -> caso o item não tenha tamanho, este será proporcional ao conterúdo do item
+- `px` `%` `em`... -> são valores exatos previamente definidos
+- `0`(zero) -> terá relação com a definição do flex-grow
+
+### flex-shrink
+
+É a propriedade que estabelecer a capacidade de redução ou compressão do tamanho de um item.
