@@ -110,3 +110,10 @@ São elementos filhos diretos do *Flex Container*, e também podem se tornar um 
 - `flex` -> shorthand para `flex-grow`, `flex-basis` e `flex-shrink`
 - `order` -> define a ordem do item
 - `align-self` -> define o alinhamento do item específico
+
+### flex-grow
+
+Define a proporcionalidade de crescimento dos itens, respeitando o tamanho de seus conteúdos internos.
+
+Obs.: não irá funcionar caso tenhamos adicionado justify-content ao nosso flex container.
+
